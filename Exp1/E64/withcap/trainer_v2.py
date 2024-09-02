@@ -126,7 +126,7 @@ csv_file_path = "d64_bbox_iembd_cap.csv"
 dataset = load_dataset('csv', data_files={'train': csv_file_path}) #load the dataset
 
 # Reserve 10% of the data for testing
-fulldataset = dataset['train']
+fulldataset = dataset
 dataset = fulldataset.train_test_split(test_size=0.1)['train']
 test_data = fulldataset.train_test_split(test_size=0.1)['test']
 
