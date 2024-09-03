@@ -1,0 +1,1646 @@
+Image Path: 009008.jpg
+Prediction: A white motorcycle with a black and red helmet is parked on a gravel driveway. The motorcycle is parked next to a black truck and a green and white house. The motorcycle is a custom build with a large engine and a sleek design.
+Ground Truth: A black Harley Davidson motorcycle is parked on a brick driveway. the motorcycle has chrome accents and is in pristine condition. the bike is parked in front of a suburban house.  the motorcycle is a classic cruiser style.
+BLEU: 0.1099
+ROUGE-1: 0.4634
+ROUGE-2: 0.3000
+ROUGE-L: 0.4146
+BERTScore Precision: 0.7386
+BERTScore Recall: 0.7699
+BERTScore F1: 0.7539
+Distinct-1: 0.5909
+Distinct-2: 0.8605
+Repetition Rate: 0.4091
+Length Ratio: 1.1579
+
+================================================================================
+
+Image Path: 005933.jpg
+Prediction: A locomotive sits on a track, ready to pull a train. The locomotive is black and white, with a large number 1 painted on the side. The locomotive has a large smokestack and a long, curved smoke plume.  The locomotive is in a train yard, surrounded by other trains and tracks.
+Ground Truth: A long freight train winds its way through a small town, passing under a tunnel, with the train engine and cars prominently displayed in the foreground. The day is cloudy and overcast, adding to the dramatic feel of the photo.
+BLEU: 0.0000
+ROUGE-1: 0.3516
+ROUGE-2: 0.0225
+ROUGE-L: 0.1978
+BERTScore Precision: 0.5817
+BERTScore Recall: 0.5627
+BERTScore F1: 0.5721
+Distinct-1: 0.7059
+Distinct-2: 0.9200
+Repetition Rate: 0.2941
+Length Ratio: 1.2750
+
+================================================================================
+
+Image Path: 000517.jpg
+Prediction: A woman with long dark hair and a bright blue and white striped shirt sits on a bench with her legs crossed. She is looking at a small dog in her lap, and the dog is looking up at her.  The woman is smiling and the dog looks happy.  The dog has a blue and white collar.
+Ground Truth: A woman sits next to a decorated christmas tree holding a fluffy white cat.  A black and white dog sits near her feet and watches curiously. The woman is smiling and looks content.
+BLEU: 0.0896
+ROUGE-1: 0.4000
+ROUGE-2: 0.1364
+ROUGE-L: 0.3111
+BERTScore Precision: 0.6457
+BERTScore Recall: 0.6904
+BERTScore F1: 0.6673
+Distinct-1: 0.6316
+Distinct-2: 0.9107
+Repetition Rate: 0.3684
+Length Ratio: 1.7273
+
+================================================================================
+
+Image Path: 006232.jpg
+Prediction: A small white and blue plane sits on a runway, with a blue sky and clouds in the background. The plane is a single-engine, propeller-driven aircraft.
+Ground Truth: A green and white seaplane with the registration N77BA is docked at a wooden pier on a calm lake. The plane is in the foreground with a small town and forested hills in the background. The image is framed by a tree on the right side of the photo.
+BLEU: 0.0722
+ROUGE-1: 0.4156
+ROUGE-2: 0.2133
+ROUGE-L: 0.3377
+BERTScore Precision: 0.6679
+BERTScore Recall: 0.6154
+BERTScore F1: 0.6406
+Distinct-1: 0.8077
+Distinct-2: 1.0000
+Repetition Rate: 0.1923
+Length Ratio: 0.5306
+
+================================================================================
+
+Image Path: 000025.jpg
+Prediction: A young man in a white shirt and black pants stands in a field, holding a leash attached to a black and white cow. The cow is standing in the field, looking at the man.
+Ground Truth: Two young girls, dressed in white coats, pose with calves at an agricultural show. One of the calves is black and white, the other is brown and white. The girls both have a red ribbon on their coats and are smiling.
+BLEU: 0.0000
+ROUGE-1: 0.3421
+ROUGE-2: 0.0541
+ROUGE-L: 0.2368
+BERTScore Precision: 0.6175
+BERTScore Recall: 0.5980
+BERTScore F1: 0.6076
+Distinct-1: 0.7143
+Distinct-2: 0.9706
+Repetition Rate: 0.2857
+Length Ratio: 0.8537
+
+================================================================================
+
+Image Path: 008708.jpg
+Prediction: A young woman in a pink dress and hat stands in a field, looking at the camera. She is surrounded by trees and greenery.
+Ground Truth: Two men walk down a paved road under a tree canopy. The man on the left is wearing a grey polo shirt and the man on the right is wearing a red and white button-up shirt. The road is lined with trees on both sides. The date 23 12 2006 appears on the right side of the image.
+BLEU: 0.0000
+ROUGE-1: 0.1928
+ROUGE-2: 0.0000
+ROUGE-L: 0.1687
+BERTScore Precision: 0.6226
+BERTScore Recall: 0.5419
+BERTScore F1: 0.5795
+Distinct-1: 0.8750
+Distinct-2: 0.9565
+Repetition Rate: 0.1250
+Length Ratio: 0.4138
+
+================================================================================
+
+Image Path: 009293.jpg
+Prediction: A blue and white motorcycle is parked on a street in front of a brick building. the motorcycle has a large blue and white logo on the side. the building is made of brick and has a large sign on the front.
+Ground Truth: A brightly colored motorcycle with a unique paint scheme is parked on a paved street. The motorcycle has a polka dot and floral pattern in bright colors, including yellow, red, orange, blue, and pink. The rear tire is visible behind the colorful body of the motorcycle.
+BLEU: 0.0897
+ROUGE-1: 0.4773
+ROUGE-2: 0.1628
+ROUGE-L: 0.3864
+BERTScore Precision: 0.6770
+BERTScore Recall: 0.6277
+BERTScore F1: 0.6514
+Distinct-1: 0.5714
+Distinct-2: 0.8780
+Repetition Rate: 0.4286
+Length Ratio: 0.9130
+
+================================================================================
+
+Image Path: 007522.jpg
+Prediction: A woman in a white shirt and blue jeans stands next to a car. She is holding a camera and looking at the car. The car is a red sports car with a black top. The car is parked on a street with other cars.
+Ground Truth: A woman wearing a black leather jacket and pink shirt sits in the driver's seat of a black car. she looks at the camera, her arms are resting on the door. her right hand is holding a small white piece of paper.  a white square has been added to the image.
+BLEU: 0.0000
+ROUGE-1: 0.4742
+ROUGE-2: 0.1684
+ROUGE-L: 0.3093
+BERTScore Precision: 0.7136
+BERTScore Recall: 0.6533
+BERTScore F1: 0.6821
+Distinct-1: 0.7111
+Distinct-2: 0.9545
+Repetition Rate: 0.2889
+Length Ratio: 0.8824
+
+================================================================================
+
+Image Path: 006970.jpg
+Prediction: A black and white car is parked on a street with a blue sky in the background. The car is a classic model with a sleek design. The car is parked in front of a building with a sign that says 'Auto Repair'.  The car is a classic model with a sleek design.  The car is parked in front of a building with a sign that says 'Auto Repair'.
+Ground Truth: A white sedan drives past a sign indicating centre parking on a street in a small town. The car is driving in front of a blank sign on a pole, obscured by the glare of the sun.  A second car is partially visible in the background.
+BLEU: 0.0893
+ROUGE-1: 0.4870
+ROUGE-2: 0.2124
+ROUGE-L: 0.3652
+BERTScore Precision: 0.6166
+BERTScore Recall: 0.6539
+BERTScore F1: 0.6347
+Distinct-1: 0.4203
+Distinct-2: 0.5441
+Repetition Rate: 0.5797
+Length Ratio: 1.5000
+
+================================================================================
+
+Image Path: 008358.jpg
+Prediction: A black and white photo of a cow standing in a field with a fence in the background. The cow is looking directly at the camera.  The photo is taken from a low angle and the cow is standing in a field of tall grass.
+Ground Truth: A brown and white cow grazes in a field with green grass and a wooden fence in the background. The cow's face is partially obscured by the tall grass. The cow's white markings are visible on its head, neck, and back.
+BLEU: 0.1658
+ROUGE-1: 0.5000
+ROUGE-2: 0.2558
+ROUGE-L: 0.4318
+BERTScore Precision: 0.7025
+BERTScore Recall: 0.6571
+BERTScore F1: 0.6790
+Distinct-1: 0.6000
+Distinct-2: 0.9091
+Repetition Rate: 0.4000
+Length Ratio: 1.0976
+
+================================================================================
+
+Image Path: 009328.jpg
+Prediction: A man in a black and white striped shirt sits on a bench, holding a camera. He is looking at the camera and smiling.  He has a small dog sitting on his lap.  The dog is looking at the camera.
+Ground Truth: A group of friends laugh and relax on a patio couch, enjoying a night out.  Two women are embracing, while the man in the middle has his arm around one of them and is laughing at something the man on the right has said.  The man on the right has a look of mischievous delight on his face.  They seem to be having a fun time.
+BLEU: 0.0000
+ROUGE-1: 0.3585
+ROUGE-2: 0.0769
+ROUGE-L: 0.2264
+BERTScore Precision: 0.5588
+BERTScore Recall: 0.5359
+BERTScore F1: 0.5471
+Distinct-1: 0.7000
+Distinct-2: 0.9231
+Repetition Rate: 0.3000
+Length Ratio: 0.6061
+
+================================================================================
+
+Image Path: 000725.jpg
+Prediction: A brown and white cow stands in a field of tall grass. The cow is looking at the camera with a curious expression. The cow is standing in a field of tall grass, with a fence in the background.
+Ground Truth: Four brown cows with white markings stand in a grassy field. The cows are looking in different directions, and one is walking towards the camera. There are trees and a fence in the background.
+BLEU: 0.1249
+ROUGE-1: 0.5753
+ROUGE-2: 0.2254
+ROUGE-L: 0.4384
+BERTScore Precision: 0.7427
+BERTScore Recall: 0.7436
+BERTScore F1: 0.7431
+Distinct-1: 0.6410
+Distinct-2: 0.8158
+Repetition Rate: 0.3590
+Length Ratio: 1.1471
+
+================================================================================
+
+Image Path: 002154.jpg
+Prediction: A red and white car is parked on a dirt road next to a large tree. The car has a large open trunk. A person stands next to the car, holding a small dog. The person is wearing a blue shirt and a white hat. The car is a classic car.
+Ground Truth: A line of classic cars are parked up and waiting for their turn to race. The lead car is a red Porsche 356, with other classic and vintage racing cars behind. The cars are parked on a wet tarmac surface, with a few spectators visible in the background.
+BLEU: 0.0000
+ROUGE-1: 0.3838
+ROUGE-2: 0.1443
+ROUGE-L: 0.2424
+BERTScore Precision: 0.6126
+BERTScore Recall: 0.5889
+BERTScore F1: 0.6005
+Distinct-1: 0.6275
+Distinct-2: 0.9200
+Repetition Rate: 0.3725
+Length Ratio: 1.0625
+
+================================================================================
+
+Image Path: 009260.jpg
+Prediction: A train pulls a passenger car along the tracks, with a large building in the background. The train is traveling on a straight track and the car is in the middle of the train.  The building is a large brick structure with a clock tower.
+Ground Truth: A bright orange freight train with BNSF emblazoned on the side sits on tracks near an old, blue and white train station. The train is partly hidden by a black metal fence with a small section of green grass and trees in the background.
+BLEU: 0.0000
+ROUGE-1: 0.4045
+ROUGE-2: 0.1149
+ROUGE-L: 0.2921
+BERTScore Precision: 0.6694
+BERTScore Recall: 0.5867
+BERTScore F1: 0.6253
+Distinct-1: 0.6222
+Distinct-2: 0.9318
+Repetition Rate: 0.3778
+Length Ratio: 1.0227
+
+================================================================================
+
+Image Path: 007539.jpg
+Prediction: A flock of pelicans flies over the ocean, their wings outstretched. The birds are silhouetted against the sky and the water, making them difficult to see.  The pelicans are in formation, flying in a straight line.
+Ground Truth: A white and black bird with a long, thin neck and a small head sits curled up behind a wire fence. The bird is in a dirt enclosure with a leafy green branch in the background.  The bird's patterned feathers are visible.
+BLEU: 0.0000
+ROUGE-1: 0.2532
+ROUGE-2: 0.0519
+ROUGE-L: 0.1519
+BERTScore Precision: 0.5373
+BERTScore Recall: 0.5533
+BERTScore F1: 0.5452
+Distinct-1: 0.8333
+Distinct-2: 1.0000
+Repetition Rate: 0.1667
+Length Ratio: 0.8571
+
+================================================================================
+
+Image Path: 001301.jpg
+Prediction: A man in a black jacket and helmet rides a black and red motorcycle with a black tank. The man is wearing a black and white helmet with a black visor. The motorcycle has a black exhaust pipe and black rims. The man is riding on a dirt road with trees and bushes in the background.
+Ground Truth: A white and red sport bike is parked with a woman and a man standing behind it. The man is wearing a grey t-shirt with white writing. the woman is looking towards the camera while the man is looking down at the bike.  The woman is leaning on the bike.
+BLEU: 0.0988
+ROUGE-1: 0.3925
+ROUGE-2: 0.1714
+ROUGE-L: 0.3178
+BERTScore Precision: 0.6686
+BERTScore Recall: 0.6745
+BERTScore F1: 0.6716
+Distinct-1: 0.5357
+Distinct-2: 0.8364
+Repetition Rate: 0.4643
+Length Ratio: 1.1200
+
+================================================================================
+
+Image Path: 007794.jpg
+Prediction: A black and white photo of a dog with a white face and black fur. The dog is looking down at a toy in its mouth. The toy is a stuffed animal that looks like a teddy bear. The dog is sitting on a green carpet.
+Ground Truth: A TIME magazine cover featuring a boxer dog with the headline Person of the Year and the dog's name Beasley underneath.  The dog is lying on a couch and looking directly at the viewer.
+BLEU: 0.0000
+ROUGE-1: 0.4198
+ROUGE-2: 0.1266
+ROUGE-L: 0.2963
+BERTScore Precision: 0.6292
+BERTScore Recall: 0.5911
+BERTScore F1: 0.6096
+Distinct-1: 0.6739
+Distinct-2: 0.9556
+Repetition Rate: 0.3261
+Length Ratio: 1.3529
+
+================================================================================
+
+Image Path: 001505.jpg
+Prediction: A silver plane with a blue tail and a white stripe on the side, sitting on a runway. The plane has a propeller at the front and a large engine at the back.
+Ground Truth: A white airplane leaves a long white contrail across a bright blue sky. The plane is flying from left to right, and is positioned at the top right of the frame.  The contrail appears to be double, leaving two distinct lines.
+BLEU: 0.0000
+ROUGE-1: 0.3243
+ROUGE-2: 0.0833
+ROUGE-L: 0.2432
+BERTScore Precision: 0.6221
+BERTScore Recall: 0.5600
+BERTScore F1: 0.5894
+Distinct-1: 0.6970
+Distinct-2: 0.9375
+Repetition Rate: 0.3030
+Length Ratio: 0.8049
+
+================================================================================
+
+Image Path: 009426.jpg
+Prediction: A black car with a red racing stripe sits on a track. The car is in the foreground and a forest of trees is in the background. The car is in motion, as indicated by the blurred trees in the background.
+Ground Truth: A dark green car is parked in a grassy field. The car is a volkswagen golf and has a license plate that reads Y785 PTS. There are trees in the background and a stone wall. The sky is blue and cloudy.
+BLEU: 0.0000
+ROUGE-1: 0.4146
+ROUGE-2: 0.1750
+ROUGE-L: 0.3415
+BERTScore Precision: 0.6833
+BERTScore Recall: 0.6261
+BERTScore F1: 0.6535
+Distinct-1: 0.6341
+Distinct-2: 0.8250
+Repetition Rate: 0.3659
+Length Ratio: 1.0000
+
+================================================================================
+
+Image Path: 009311.jpg
+Prediction: A man sits at a table in a restaurant, eating a meal. He is wearing a white shirt and black pants, and his food is on a white plate. He is looking down at his food with a focused expression.
+Ground Truth: A man stands in the doorway of a hotel room. The room is decorated with artwork and furniture and a small table is set with place settings and a bottle of wine.  A rug covers the floor.  The man is holding a beer.
+BLEU: 0.0000
+ROUGE-1: 0.3614
+ROUGE-2: 0.0247
+ROUGE-L: 0.2651
+BERTScore Precision: 0.5961
+BERTScore Recall: 0.6111
+BERTScore F1: 0.6035
+Distinct-1: 0.6750
+Distinct-2: 0.9231
+Repetition Rate: 0.3250
+Length Ratio: 0.9302
+
+================================================================================
+
+Image Path: 009355.jpg
+Prediction: A man and a woman sit at a table in a restaurant, both wearing black. The man is looking at the woman with a smile on his face. The woman is looking away from the camera. They are both holding a drink.
+Ground Truth: A black fixed gear bicycle with drop handlebars sits on top of a wooden table. the bike has black rims with a red stripe on the inside of the tire.  the bike is in a room with a light brown door.
+BLEU: 0.0000
+ROUGE-1: 0.3855
+ROUGE-2: 0.0494
+ROUGE-L: 0.2651
+BERTScore Precision: 0.5082
+BERTScore Recall: 0.5087
+BERTScore F1: 0.5084
+Distinct-1: 0.6905
+Distinct-2: 0.9756
+Repetition Rate: 0.3095
+Length Ratio: 1.0244
+
+================================================================================
+
+Image Path: 009731.jpg
+Prediction: A brown and white bird with a black beak and a small white patch on its chest sits on a tree branch. The bird has a slightly open mouth and its head is turned to the left. The bird is perched on a small branch that is partially obscured by leaves.
+Ground Truth: A black and white anhinga bird stands in a marsh, its long neck curved, looking alertly to its right.
+BLEU: 0.0000
+ROUGE-1: 0.2571
+ROUGE-2: 0.0588
+ROUGE-L: 0.2286
+BERTScore Precision: 0.5909
+BERTScore Recall: 0.6394
+BERTScore F1: 0.6142
+Distinct-1: 0.6863
+Distinct-2: 0.9400
+Repetition Rate: 0.3137
+Length Ratio: 2.6842
+
+================================================================================
+
+Image Path: 004580.jpg
+Prediction: A bus and a car are parked on a street. A person stands in front of the bus. The bus has a sign that says 'City of London'. The car is a blue Volkswagen.
+Ground Truth: Two women stand next to a fire engine on a busy street. They are talking to each other and looking at something out of frame. There are two cars and a few other people in the background.
+BLEU: 0.0000
+ROUGE-1: 0.3380
+ROUGE-2: 0.0580
+ROUGE-L: 0.1972
+BERTScore Precision: 0.5769
+BERTScore Recall: 0.5472
+BERTScore F1: 0.5617
+Distinct-1: 0.7647
+Distinct-2: 1.0000
+Repetition Rate: 0.2353
+Length Ratio: 0.9189
+
+================================================================================
+
+Image Path: 003136.jpg
+Prediction: A black and white television sits on a wooden table in a room. The tv is turned on and the screen is displaying a blue and white pattern. the tv is surrounded by a wooden frame.
+Ground Truth: A  top-down view of a recycling bin overflowing with household waste. The items in the bin are a television,  plastic bags, packaging, and cardboard.
+BLEU: 0.0000
+ROUGE-1: 0.2623
+ROUGE-2: 0.0000
+ROUGE-L: 0.1967
+BERTScore Precision: 0.5244
+BERTScore Recall: 0.4927
+BERTScore F1: 0.5081
+Distinct-1: 0.6667
+Distinct-2: 0.9143
+Repetition Rate: 0.3333
+Length Ratio: 1.5000
+
+================================================================================
+
+Image Path: 005532.jpg
+Prediction: A small brown bird sits on a wooden branch, its head turned to the side. The bird is looking off to the side, possibly at a bird feeder. The bird is perched on a wooden branch that is surrounded by green leaves.
+Ground Truth: A group of young swans swim in a calm lake. They are a light brown with white and are surrounded by tall reeds that line the shore. One of the swans is swimming with its head out of the water, looking for food.
+BLEU: 0.0000
+ROUGE-1: 0.3294
+ROUGE-2: 0.0482
+ROUGE-L: 0.1412
+BERTScore Precision: 0.6260
+BERTScore Recall: 0.6145
+BERTScore F1: 0.6202
+Distinct-1: 0.7143
+Distinct-2: 0.8780
+Repetition Rate: 0.2857
+Length Ratio: 0.9767
+
+================================================================================
+
+Image Path: 009280.jpg
+Prediction: A blue and white bike with a basket and a bell is parked in a driveway. The bike is leaning against a chain link fence. The bike is covered in a layer of dust.  A sign that says "No Parking" is visible in the background.
+Ground Truth: A black and white image of the front wheel of a peugeot bicycle. the bicycle is locked to a post, and the front wheel is facing the camera. the bike's spokes and tire are in focus, while the rest of the bike is blurred. the peugeot name is clearly visible on the top tube of the frame.
+BLEU: 0.0000
+ROUGE-1: 0.3495
+ROUGE-2: 0.0792
+ROUGE-L: 0.2913
+BERTScore Precision: 0.5724
+BERTScore Recall: 0.5714
+BERTScore F1: 0.5719
+Distinct-1: 0.6889
+Distinct-2: 0.9318
+Repetition Rate: 0.3111
+Length Ratio: 0.7895
+
+================================================================================
+
+Image Path: 006716.jpg
+Prediction: A brown and white bird sits on a branch, looking at the camera. The bird is perched on a branch with green leaves, and the bird's head is turned towards the camera. The bird's feathers are visible, and the branch is covered in green leaves. The bird is looking at the camera with a curious expression.
+Ground Truth: Three brown and white shorebirds with long, thin bills stand in the shallow surf. They have speckled, brown feathers and white underbellies. The birds stand on the wet sand, facing the camera.  The beach is covered in white foam from receding waves.
+BLEU: 0.0000
+ROUGE-1: 0.3400
+ROUGE-2: 0.1429
+ROUGE-L: 0.2800
+BERTScore Precision: 0.6716
+BERTScore Recall: 0.6216
+BERTScore F1: 0.6456
+Distinct-1: 0.5893
+Distinct-2: 0.8545
+Repetition Rate: 0.4107
+Length Ratio: 1.3333
+
+================================================================================
+
+Image Path: 006596.jpg
+Prediction: A white cat with green eyes sits on a wooden table, looking at the camera. The cat is alert and looking directly at the camera. The cat is perched on a wooden chair and is looking directly at the camera.
+Ground Truth: A ginger tabby cat lies down on a couch, with a grey cat nestled behind it. The ginger cat is looking at the camera with its big green eyes.  Both cats are looking relaxed and content.
+BLEU: 0.0000
+ROUGE-1: 0.4737
+ROUGE-2: 0.1892
+ROUGE-L: 0.3421
+BERTScore Precision: 0.7570
+BERTScore Recall: 0.6911
+BERTScore F1: 0.7225
+Distinct-1: 0.5500
+Distinct-2: 0.7179
+Repetition Rate: 0.4500
+Length Ratio: 1.1111
+
+================================================================================
+
+Image Path: 007972.jpg
+Prediction: A white horse with a black mane and tail stands in a pasture, its head turned towards the camera. The horse is standing on a dirt road, surrounded by green grass and trees. The horse is looking at the camera, with a slight smile on its face.
+Ground Truth: Two racehorses, a black horse with a green number 5 and a brown horse with a yellow number 3, gallop around the racetrack with their jockeys leaning forward. The horses are neck and neck as they race.
+BLEU: 0.0000
+ROUGE-1: 0.3571
+ROUGE-2: 0.1220
+ROUGE-L: 0.2381
+BERTScore Precision: 0.5593
+BERTScore Recall: 0.5769
+BERTScore F1: 0.5680
+Distinct-1: 0.7447
+Distinct-2: 0.9348
+Repetition Rate: 0.2553
+Length Ratio: 1.2703
+
+================================================================================
+
+Image Path: 005626.jpg
+Prediction: A steam locomotive, number 1200, sits on tracks at a train station. The locomotive is black and has a large number on the side. The train is stopped and there are no people in sight.  The train is parked on a side track.
+Ground Truth: A British Rail Class 55 (Deltic) diesel-electric locomotive sits in a railway yard. The locomotive is numbered 55016 and is in a dark green livery. This image was taken in the 1970s.  The locomotive is waiting for its next assignment.  The photo is in color.
+BLEU: 0.0000
+ROUGE-1: 0.3596
+ROUGE-2: 0.0460
+ROUGE-L: 0.3146
+BERTScore Precision: 0.6430
+BERTScore Recall: 0.6006
+BERTScore F1: 0.6211
+Distinct-1: 0.7209
+Distinct-2: 0.9524
+Repetition Rate: 0.2791
+Length Ratio: 0.9556
+
+================================================================================
+
+Image Path: 001942.jpg
+Prediction: A man sits in the driver's seat of a silver convertible car, with a dark blue background. The car is parked on a gravel road with a dirt road in the background.  The man is looking out the window with a serious expression.
+Ground Truth: A maroon 1960 Lincoln Continental is parked on a showroom floor, the gleaming paint and chrome reflecting the light. The car is in immaculate condition, a testament to classic American automotive design. The car's license plate reads 494 PGM.
+BLEU: 0.0901
+ROUGE-1: 0.3571
+ROUGE-2: 0.1220
+ROUGE-L: 0.2143
+BERTScore Precision: 0.5398
+BERTScore Recall: 0.5024
+BERTScore F1: 0.5204
+Distinct-1: 0.6744
+Distinct-2: 0.9048
+Repetition Rate: 0.3256
+Length Ratio: 1.1026
+
+================================================================================
+
+Image Path: 005162.jpg
+Prediction: A man in a blue shirt and jeans stands in front of a brick wall, holding a red and white striped umbrella. He has a beard and is looking down at the ground. He is standing in front of a building with a sign that reads 'Museum of Science and Industry'.
+Ground Truth: A young man in black swim trunks dives head first off a wooden diving board into a clear blue tropical sea.  The mountains rise up in the distance, providing a scenic backdrop for the perfect summer day.
+BLEU: 0.0000
+ROUGE-1: 0.2045
+ROUGE-2: 0.0233
+ROUGE-L: 0.1818
+BERTScore Precision: 0.5121
+BERTScore Recall: 0.5161
+BERTScore F1: 0.5141
+Distinct-1: 0.7059
+Distinct-2: 0.9400
+Repetition Rate: 0.2941
+Length Ratio: 1.3784
+
+================================================================================
+
+Image Path: 001695.jpg
+Prediction: A man sits in a chair in front of a television set, watching a football game. He is wearing a blue shirt and has a beer in his hand.  The television is on and the game is in progress.
+Ground Truth: A Sony DVD player displays an error message on the screen that reads, Cannot play this disc. The background of the screen is a blurred blue gradient, and the text is white.
+BLEU: 0.0000
+ROUGE-1: 0.2817
+ROUGE-2: 0.0290
+ROUGE-L: 0.2254
+BERTScore Precision: 0.5174
+BERTScore Recall: 0.4988
+BERTScore F1: 0.5079
+Distinct-1: 0.7179
+Distinct-2: 1.0000
+Repetition Rate: 0.2821
+Length Ratio: 1.2188
+
+================================================================================
+
+Image Path: 004844.jpg
+Prediction: A black and white car with a red interior is parked on a cobblestone street. The car is a vintage model with a classic design.  A man is standing on the sidewalk, looking at the car.  The car is parked in front of a building with a sign that says 'Museum of the City of New York'.
+Ground Truth: A large billboard advertises Tag Heuer watches with an image of a man in a suit and sunglasses. The billboard is on a building in a bustling city centre. Cars are driving on the road below.
+BLEU: 0.0000
+ROUGE-1: 0.3871
+ROUGE-2: 0.1099
+ROUGE-L: 0.2366
+BERTScore Precision: 0.5792
+BERTScore Recall: 0.5844
+BERTScore F1: 0.5818
+Distinct-1: 0.6491
+Distinct-2: 0.9107
+Repetition Rate: 0.3509
+Length Ratio: 1.5833
+
+================================================================================
+
+Image Path: 008375.jpg
+Prediction: A red and white 1970s Datsun 240Z is parked in a parking lot. The car is parked in front of a brick building with a sign that says 'Auto Parts' in blue letters. The car has a chrome bumper and a black interior.
+Ground Truth: A black and white photo of a tall brick building with many windows. The building has a sign that says VICE on it. A car is parked in front of the building, and there are streetlights in the foreground.
+BLEU: 0.2280
+ROUGE-1: 0.5854
+ROUGE-2: 0.3500
+ROUGE-L: 0.3659
+BERTScore Precision: 0.6478
+BERTScore Recall: 0.6640
+BERTScore F1: 0.6558
+Distinct-1: 0.7442
+Distinct-2: 0.9286
+Repetition Rate: 0.2558
+Length Ratio: 1.1026
+
+================================================================================
+
+Image Path: 005362.jpg
+Prediction: A living room with a couch, a chair, a small table, and a desk. There is a bookshelf in the background with a few books on it. The room is well lit and has a warm, inviting atmosphere.
+Ground Truth: A modern, minimalist living space features a long table with white chairs and a sleek, dark grey couch. The room is brightly lit with large windows and white blinds.  The floor is a polished concrete.  A long wooden coffee table sits in front of the couch.
+BLEU: 0.0000
+ROUGE-1: 0.4762
+ROUGE-2: 0.0976
+ROUGE-L: 0.2857
+BERTScore Precision: 0.6743
+BERTScore Recall: 0.6499
+BERTScore F1: 0.6619
+Distinct-1: 0.7368
+Distinct-2: 0.9730
+Repetition Rate: 0.2632
+Length Ratio: 0.8261
+
+================================================================================
+
+Image Path: 007638.jpg
+Prediction: A young woman with long, curly, dark hair stands in front of a tree with a large, white building behind her. She is looking down and smiling.  The woman is wearing a black and white striped shirt.
+Ground Truth: A hairless cat sits in a window seat. The cat looks out of the window, which is framed by the seat. The cat is gray and has big ears. The seat has a soft gray carpet lining.
+BLEU: 0.0000
+ROUGE-1: 0.2703
+ROUGE-2: 0.0000
+ROUGE-L: 0.1892
+BERTScore Precision: 0.5477
+BERTScore Recall: 0.5627
+BERTScore F1: 0.5551
+Distinct-1: 0.8108
+Distinct-2: 1.0000
+Repetition Rate: 0.1892
+Length Ratio: 1.0000
+
+================================================================================
+
+Image Path: 008668.jpg
+Prediction: A white car is parked in front of a building with a large window. The car is a sedan and is parked in a parking lot. The car is facing away from the camera. There is a blue sign in the background.
+Ground Truth: A black and white image of two old trucks parked next to each other. The truck in the foreground is a classic Ford, and the truck in the background is a Ford F-100. The trucks are both weathered and worn, showing signs of their age. They are likely parked at a junkyard, or scrap yard.
+BLEU: 0.0000
+ROUGE-1: 0.3878
+ROUGE-2: 0.0833
+ROUGE-L: 0.2653
+BERTScore Precision: 0.6015
+BERTScore Recall: 0.5573
+BERTScore F1: 0.5786
+Distinct-1: 0.6429
+Distinct-2: 0.8537
+Repetition Rate: 0.3571
+Length Ratio: 0.7636
+
+================================================================================
+
+Image Path: 004004.jpg
+Prediction: A white couch sits on a hardwood floor in a living room. The couch is covered in a light brown fabric and has a brown pillow on the back. A small dog is laying on the couch, looking up at the camera.  The room is bright and airy, with a large window on the left.
+Ground Truth: A plush living room is decorated in a classic style. A dark brown couch sits in front of a dark wood bookcase. A trunk coffee table sits in the center of the room with decorative white balls on top. A dog lies on the floor beside the table.
+BLEU: 0.0000
+ROUGE-1: 0.4854
+ROUGE-2: 0.1188
+ROUGE-L: 0.3107
+BERTScore Precision: 0.6696
+BERTScore Recall: 0.6822
+BERTScore F1: 0.6758
+Distinct-1: 0.6727
+Distinct-2: 0.9444
+Repetition Rate: 0.3273
+Length Ratio: 1.1458
+
+================================================================================
+
+Image Path: 006623.jpg
+Prediction: A young man in a black t-shirt and jeans holds a brown and white horse in a stable. The horse is looking down at the man and the man is looking at the camera. The man is holding the horse's bridle.
+Ground Truth: A man in a red and black striped shirt looks at a grey horse while holding a clear plastic sheet in his hand. The horse is looking down at the man's hand.  Both are standing in a dirt paddock.  A sign is visible in the bottom right corner.
+BLEU: 0.1752
+ROUGE-1: 0.5435
+ROUGE-2: 0.2667
+ROUGE-L: 0.4130
+BERTScore Precision: 0.7484
+BERTScore Recall: 0.6643
+BERTScore F1: 0.7039
+Distinct-1: 0.5854
+Distinct-2: 0.8750
+Repetition Rate: 0.4146
+Length Ratio: 0.8542
+
+================================================================================
+
+Image Path: 006312.jpg
+Prediction: A man in a white shirt and jeans sits on a bike with a helmet and a backpack. He is looking down at his phone. The bike is a bright red color.
+Ground Truth: A man rides his bicycle on a paved path through a lush green forest. he's wearing a white and brown shirt and blue pants. the path is surrounded by trees on both sides. the bright sky is visible in the background.  the man looks over his shoulder at the camera.
+BLEU: 0.0000
+ROUGE-1: 0.4578
+ROUGE-2: 0.0988
+ROUGE-L: 0.2651
+BERTScore Precision: 0.7033
+BERTScore Recall: 0.6130
+BERTScore F1: 0.6550
+Distinct-1: 0.7812
+Distinct-2: 1.0000
+Repetition Rate: 0.2188
+Length Ratio: 0.6400
+
+================================================================================
+
+Image Path: 001297.jpg
+Prediction: A young woman sits on a couch, holding a cat in her lap. She is smiling and the cat is looking at the camera. The couch is a light brown and the cat is a light grey.  The woman is wearing a black sweater and the cat is wearing a red collar.
+Ground Truth: A young person sits on a brown couch with their legs stretched out in front of them. They are looking at a laptop computer. Their face is partially obscured by their hand. They are wearing black pants and a black shirt.
+BLEU: 0.0000
+ROUGE-1: 0.3441
+ROUGE-2: 0.1099
+ROUGE-L: 0.3226
+BERTScore Precision: 0.6469
+BERTScore Recall: 0.6597
+BERTScore F1: 0.6532
+Distinct-1: 0.5769
+Distinct-2: 0.8039
+Repetition Rate: 0.4231
+Length Ratio: 1.2683
+
+================================================================================
+
+Image Path: 006885.jpg
+Prediction: A man rides a bicycle through a desert landscape. He is wearing a helmet and a jacket. The bike is a black and white mountain bike with a front suspension fork. The man is looking down at the bike as he rides.
+Ground Truth: Four cyclists race around a velodrome, a track designed for speed cycling. The track is banked to allow cyclists to lean into turns, and the riders are all in a line, racing for the win.  The cyclist in the lead is wearing a red jersey.
+BLEU: 0.0000
+ROUGE-1: 0.2529
+ROUGE-2: 0.0471
+ROUGE-L: 0.1839
+BERTScore Precision: 0.5359
+BERTScore Recall: 0.5085
+BERTScore F1: 0.5218
+Distinct-1: 0.7143
+Distinct-2: 1.0000
+Repetition Rate: 0.2857
+Length Ratio: 0.9333
+
+================================================================================
+
+Image Path: 009263.jpg
+Prediction: A young woman sits on a couch with her legs crossed, looking at the camera. She is wearing a white shirt and black pants. She has a black purse on the couch next to her. There are two other people in the background.
+Ground Truth: A man sits in a chair, working at a desk. In the background, there is a massage chair, a lounger, and a shelf stocked with packages. The room has tiled floors and a wooden paneled wall.  A stack of white packages sit on a shelf near the massage chair.
+BLEU: 0.0000
+ROUGE-1: 0.3913
+ROUGE-2: 0.0889
+ROUGE-L: 0.2609
+BERTScore Precision: 0.6142
+BERTScore Recall: 0.5867
+BERTScore F1: 0.6001
+Distinct-1: 0.8140
+Distinct-2: 1.0000
+Repetition Rate: 0.1860
+Length Ratio: 0.8776
+
+================================================================================
+
+Image Path: 004934.jpg
+Prediction: A woman in a black and white striped shirt and a black and white polka dot skirt stands in front of a white wall. she is holding a black and white striped umbrella and a black and white striped purse. she is looking directly at the camera.
+Ground Truth: A young woman with long brown hair is holding a grey tabby cat in her arms. The cat is looking up at the camera with a surprised expression, while the woman looks down at the cat with a smile. The cat has its claws out and is holding on to the woman's arm.  The woman is wearing a black and white shirt.  The woman and cat appear to be enjoying their time together.
+BLEU: 0.0557
+ROUGE-1: 0.3306
+ROUGE-2: 0.1345
+ROUGE-L: 0.2149
+BERTScore Precision: 0.7004
+BERTScore Recall: 0.5630
+BERTScore F1: 0.6242
+Distinct-1: 0.5532
+Distinct-2: 0.7174
+Repetition Rate: 0.4468
+Length Ratio: 0.6438
+
+================================================================================
+
+Image Path: 002162.jpg
+Prediction: A black cat with a white face sits on a wooden bench, looking directly at the camera. The cat has a friendly expression and its eyes are focused on the camera. The cat's fur is sleek and shiny.
+Ground Truth: A brown tabby cat is curled up asleep on a wooden floor next to a white appliance, its tail wrapped around its body. A black cord runs across the floor, seemingly forgotten. The cat appears to be sleeping soundly.
+BLEU: 0.0000
+ROUGE-1: 0.3590
+ROUGE-2: 0.1316
+ROUGE-L: 0.2564
+BERTScore Precision: 0.6337
+BERTScore Recall: 0.6269
+BERTScore F1: 0.6303
+Distinct-1: 0.7895
+Distinct-2: 0.9459
+Repetition Rate: 0.2105
+Length Ratio: 0.9744
+
+================================================================================
+
+Image Path: 009240.jpg
+Prediction: A man in a white shirt and a black hat stands on the deck of a boat, holding a fishing rod. The boat is in a calm, blue ocean, with a small island in the distance.
+Ground Truth: A woman on a boat looks out at a large cruise ship in the distance. The cruise ship is leaving a wake in the water as it sails away.  The woman is wearing a peach tank top with a blue accent.  She has short, curly brown hair.
+BLEU: 0.0000
+ROUGE-1: 0.4096
+ROUGE-2: 0.0988
+ROUGE-L: 0.2651
+BERTScore Precision: 0.6458
+BERTScore Recall: 0.6227
+BERTScore F1: 0.6340
+Distinct-1: 0.7778
+Distinct-2: 0.9714
+Repetition Rate: 0.2222
+Length Ratio: 0.7660
+
+================================================================================
+
+Image Path: 007170.jpg
+Prediction: A young woman sits on a couch, holding a glass of wine in one hand and a plate of food in the other. She is wearing a black dress and has her hair in a messy bun. She looks relaxed and happy.
+Ground Truth: A woman kneels by a decorated Christmas tree while a couple on the couch exchange a wrapped gift. A man sits on a red couch next to a woman, both looking down at the gift. The woman on the couch is covering her mouth with her hand while smiling.
+BLEU: 0.0000
+ROUGE-1: 0.3297
+ROUGE-2: 0.0449
+ROUGE-L: 0.2198
+BERTScore Precision: 0.5638
+BERTScore Recall: 0.5951
+BERTScore F1: 0.5791
+Distinct-1: 0.7619
+Distinct-2: 1.0000
+Repetition Rate: 0.2381
+Length Ratio: 0.8571
+
+================================================================================
+
+Image Path: 002900.jpg
+Prediction: A white car with a red stripe and black stripes is parked in a parking lot. The car is a Toyota Supra. The car is parked in front of a building with a sign that says 'Kwik Trip'.  The car is parked in front of a building with a sign that says 'Kwik Trip'.
+Ground Truth: A white Toyota Corolla races around a track, leaving a trail of tire smoke behind it. The car is speeding around a corner, the trees in the background blurred by motion.  The car's taillights are visible, as is its rear bumper.  The car is in motion.
+BLEU: 0.0000
+ROUGE-1: 0.3564
+ROUGE-2: 0.1212
+ROUGE-L: 0.2970
+BERTScore Precision: 0.5396
+BERTScore Recall: 0.5353
+BERTScore F1: 0.5374
+Distinct-1: 0.4815
+Distinct-2: 0.6226
+Repetition Rate: 0.5185
+Length Ratio: 1.1739
+
+================================================================================
+
+Image Path: 003840.jpg
+Prediction: A black and white photo of a cow standing in a field. The cow is looking off to the side, and there is a small amount of grass in the foreground. The cow is standing on a dirt road.
+Ground Truth: A close-up of a brown and white cow with a yellow ear tag. The cow is standing in a field of green grass and looks directly at the camera. The cow's fur is soft and fluffy.  Its legs are covered in mud.
+BLEU: 0.1118
+ROUGE-1: 0.5542
+ROUGE-2: 0.2222
+ROUGE-L: 0.3614
+BERTScore Precision: 0.7060
+BERTScore Recall: 0.6605
+BERTScore F1: 0.6825
+Distinct-1: 0.6667
+Distinct-2: 0.9474
+Repetition Rate: 0.3333
+Length Ratio: 0.9286
+
+================================================================================
+
+Image Path: 002535.jpg
+Prediction: A brown and white dog lies on a grey couch with a blanket draped over it. The couch is set against a dark grey wall. The dog is looking away from the camera.
+Ground Truth: A white and brown bulldog lays on a grey couch and chews on a brown chew toy. The dog's eyes are closed as it enjoys its treat. The couch is made of a textured fabric that is grey.  The dog looks comfortable and content.
+BLEU: 0.0938
+ROUGE-1: 0.5385
+ROUGE-2: 0.1842
+ROUGE-L: 0.4103
+BERTScore Precision: 0.7006
+BERTScore Recall: 0.6588
+BERTScore F1: 0.6790
+Distinct-1: 0.7879
+Distinct-2: 1.0000
+Repetition Rate: 0.2121
+Length Ratio: 0.7500
+
+================================================================================
+
+Image Path: 002144.jpg
+Prediction: A group of people gather around a table on a beach. They are wearing shorts and t-shirts and are laughing and smiling. A large red and white tent is set up behind them. The tent is decorated with a sign that says 'The Beach Bar'.
+Ground Truth: A colorful bird perched on a hand, looks intensely at a small cup of food. The bird's blue, purple and yellow feathers contrast against the grey stone ground and the hand holding the cup.
+BLEU: 0.0000
+ROUGE-1: 0.2222
+ROUGE-2: 0.0253
+ROUGE-L: 0.1728
+BERTScore Precision: 0.5102
+BERTScore Recall: 0.5287
+BERTScore F1: 0.5193
+Distinct-1: 0.8000
+Distinct-2: 0.9773
+Repetition Rate: 0.2000
+Length Ratio: 1.3235
+
+================================================================================
+
+Image Path: 002400.jpg
+Prediction: A black and white photo of a young woman in a hat, looking at the camera with a serious expression. She is wearing a white shirt and has a black jacket draped over her shoulders.  The photo is slightly out of focus.
+Ground Truth: A golden eagle (Aquila chrysaetos) looks intently to the right, its keen eye focused on a potential prey. The bird's brown feathers and powerful beak are evidence of its strength and hunting prowess. Its golden plumage is a striking contrast to the muted background.
+BLEU: 0.0000
+ROUGE-1: 0.2299
+ROUGE-2: 0.0000
+ROUGE-L: 0.1609
+BERTScore Precision: 0.4932
+BERTScore Recall: 0.4516
+BERTScore F1: 0.4715
+Distinct-1: 0.7619
+Distinct-2: 1.0000
+Repetition Rate: 0.2381
+Length Ratio: 0.9545
+
+================================================================================
+
+Image Path: 001217.jpg
+Prediction: A brown leather couch sits in a living room with a large window behind it. A small dog sits on the couch, looking out the window. The room is decorated with a few small plants and a large mirror.
+Ground Truth: Four dogs relax on a brown leather couch. One dog is black and white with a pink bow on its head, a second dog is light brown, and a third dog is white. The fourth dog, a brown and white terrier mix, is sprawled across the couch.
+BLEU: 0.0000
+ROUGE-1: 0.3721
+ROUGE-2: 0.1429
+ROUGE-L: 0.2558
+BERTScore Precision: 0.5965
+BERTScore Recall: 0.5689
+BERTScore F1: 0.5824
+Distinct-1: 0.7436
+Distinct-2: 0.9474
+Repetition Rate: 0.2564
+Length Ratio: 0.8298
+
+================================================================================
+
+Image Path: 006287.jpg
+Prediction: A woman sits on a couch, reading a book. She is wearing a white shirt and a necklace. A black and white cat sits on the couch next to her.  The room is decorated with a lamp and a plant.
+Ground Truth: A woman sits on a purple couch in a living room, looking thoughtful. She is dressed in jeans and a maroon top. The couch is next to a large window with sheer purple curtains. The room is decorated with framed artwork.
+BLEU: 0.2133
+ROUGE-1: 0.5185
+ROUGE-2: 0.3038
+ROUGE-L: 0.4938
+BERTScore Precision: 0.7548
+BERTScore Recall: 0.7507
+BERTScore F1: 0.7527
+Distinct-1: 0.7000
+Distinct-2: 0.9487
+Repetition Rate: 0.3000
+Length Ratio: 0.9756
+
+================================================================================
+
+Image Path: 009640.jpg
+Prediction: A brown and white tabby cat sits on a wooden table, looking at the camera. The cat has a fluffy tail and is looking straight at the camera. The cat is looking at the camera, and the cat is looking at the camera.
+Ground Truth: A calico cat peers through an open window, with a brick wall below.
+BLEU: 0.0000
+ROUGE-1: 0.1071
+ROUGE-2: 0.0000
+ROUGE-L: 0.1071
+BERTScore Precision: 0.5012
+BERTScore Recall: 0.5744
+BERTScore F1: 0.5353
+Distinct-1: 0.5116
+Distinct-2: 0.7143
+Repetition Rate: 0.4884
+Length Ratio: 3.3077
+
+================================================================================
+
+Image Path: 008894.jpg
+Prediction: A man stands in a kitchen holding a glass of water in his right hand. He is wearing a white shirt and black pants. There is a white and black striped apron around his waist. A bottle of water sits on the counter next to him.
+Ground Truth: A young man in a white hoodie with black stripes holds a bottle of wine close to his chest.  He's looking at the camera, but his eyes are closed. The bottle of wine is the focal point of the image.
+BLEU: 0.0000
+ROUGE-1: 0.4138
+ROUGE-2: 0.1412
+ROUGE-L: 0.2989
+BERTScore Precision: 0.6561
+BERTScore Recall: 0.6378
+BERTScore F1: 0.6468
+Distinct-1: 0.7391
+Distinct-2: 0.9333
+Repetition Rate: 0.2609
+Length Ratio: 1.1500
+
+================================================================================
+
+Image Path: 008882.jpg
+Prediction: A woman in a white shirt and black pants sits on a horse in a grassy field. the horse is looking to the left, and the woman is smiling. the horse is wearing a black bridle.
+Ground Truth: A  rider in a black jacket and white helmet, jumps over a yellow and black hurdle on a brown horse. The rider is wearing white pants and black boots. The horse is jumping high in the air with its legs extended. The background is blurred with trees and buildings in the distance.
+BLEU: 0.0000
+ROUGE-1: 0.5227
+ROUGE-2: 0.1628
+ROUGE-L: 0.3636
+BERTScore Precision: 0.6901
+BERTScore Recall: 0.6538
+BERTScore F1: 0.6714
+Distinct-1: 0.6111
+Distinct-2: 0.9143
+Repetition Rate: 0.3889
+Length Ratio: 0.6923
+
+================================================================================
+
+Image Path: 003581.jpg
+Prediction: A young woman sits on a sofa, looking at a laptop. She is wearing a black shirt and has her hair pulled back. There is a chair in the background.
+Ground Truth: Two men sit on a bench outdoors. The man on the left is pointing his finger at the camera while the man on the right is holding a small glass of wine.  He also has a small purse on his lap.  The man on the left is wearing a plaid shirt and green vest. The man on the right is wearing a burgundy sweater and jeans.
+BLEU: 0.0000
+ROUGE-1: 0.3125
+ROUGE-2: 0.1064
+ROUGE-L: 0.2500
+BERTScore Precision: 0.6459
+BERTScore Recall: 0.5725
+BERTScore F1: 0.6070
+Distinct-1: 0.8667
+Distinct-2: 1.0000
+Repetition Rate: 0.1333
+Length Ratio: 0.4545
+
+================================================================================
+
+Image Path: 005610.jpg
+Prediction: A young man in a cowboy hat stands in a field of tall grass with a horse. The man is wearing a white shirt and a brown vest. He is looking down at the ground. The horse is looking at the man.  The man is standing in a field of tall grass.
+Ground Truth: A woman on a black horse leaps over a green jump. The horse is in mid-air and the woman is leaning forward. The jump has signs that read Support Equestrian Sport.  The horse is wearing a brown bridle with a white nose band and brow band.
+BLEU: 0.0000
+ROUGE-1: 0.4040
+ROUGE-2: 0.1443
+ROUGE-L: 0.2424
+BERTScore Precision: 0.6137
+BERTScore Recall: 0.6064
+BERTScore F1: 0.6100
+Distinct-1: 0.6154
+Distinct-2: 0.8235
+Repetition Rate: 0.3846
+Length Ratio: 1.1304
+
+================================================================================
+
+Image Path: 005117.jpg
+Prediction: A group of people, including a man and a woman, stand around a table. The man is holding a plate of food and a drink, while the woman is holding a plate of food. The table is covered with a white tablecloth and there are plates and glasses on the table. The people are smiling and seem to be having a good time.
+Ground Truth: A man smiles as he holds his black and tan dachshund in his arms. He is wearing a blue t-shirt. The dog is looking down and appears to be resting its chin on his arm.  The man is in a kitchen with white cabinets.
+BLEU: 0.0000
+ROUGE-1: 0.3519
+ROUGE-2: 0.0755
+ROUGE-L: 0.2222
+BERTScore Precision: 0.5695
+BERTScore Recall: 0.5487
+BERTScore F1: 0.5589
+Distinct-1: 0.6349
+Distinct-2: 0.9032
+Repetition Rate: 0.3651
+Length Ratio: 1.4318
+
+================================================================================
+
+Image Path: 004412.jpg
+Prediction: A man in a blue shirt and white shorts stands on a skateboard ramp, holding a skateboard in his hand. He is wearing a helmet and gloves. He is in the middle of a jump.
+Ground Truth: A woman in a blue and yellow cycling uniform rides a pink bicycle at a fast pace. She is wearing a helmet and has a determined look on her face. She is participating in a bicycle race.
+BLEU: 0.1485
+ROUGE-1: 0.4444
+ROUGE-2: 0.1714
+ROUGE-L: 0.4167
+BERTScore Precision: 0.6957
+BERTScore Recall: 0.6850
+BERTScore F1: 0.6903
+Distinct-1: 0.7143
+Distinct-2: 0.9412
+Repetition Rate: 0.2857
+Length Ratio: 0.9459
+
+================================================================================
+
+Image Path: 007879.jpg
+Prediction: A brown and white dog stands on a green lawn, looking up at a camera. The dog is alert and looking directly at the camera. The dog is wearing a blue collar and a black leash.  The dog is standing on a green grassy area with trees in the background.
+Ground Truth: A brindle and white dog with a green harness is sniffing the ground in a snowy field. The dog's tail is wagging behind it as it explores its surroundings.  It seems to be enjoying its winter adventure.
+BLEU: 0.0000
+ROUGE-1: 0.3182
+ROUGE-2: 0.0930
+ROUGE-L: 0.2727
+BERTScore Precision: 0.6307
+BERTScore Recall: 0.5842
+BERTScore F1: 0.6066
+Distinct-1: 0.6200
+Distinct-2: 0.8571
+Repetition Rate: 0.3800
+Length Ratio: 1.3514
+
+================================================================================
+
+Image Path: 001193.jpg
+Prediction: A man in a red jacket and a woman in a blue jacket ride a tandem bicycle down a busy street. The woman is holding a camera and the man is wearing a helmet.  The bike is moving quickly and there are people walking on the sidewalk in the background.
+Ground Truth: A close-up of the front wheel of a red bicycle with whitewall tires. the bike has a chrome fender, and a chrome headlight.  the bike is parked in front of a wooden fence and green grass.
+BLEU: 0.0000
+ROUGE-1: 0.3448
+ROUGE-2: 0.0941
+ROUGE-L: 0.2759
+BERTScore Precision: 0.5653
+BERTScore Recall: 0.5736
+BERTScore F1: 0.5694
+Distinct-1: 0.6400
+Distinct-2: 0.9796
+Repetition Rate: 0.3600
+Length Ratio: 1.3889
+
+================================================================================
+
+Image Path: 006407.jpg
+Prediction: A bus with a white roof and a sign that says 'Bus 7' drives down a street. A man in a suit and tie stands in front of the bus, holding a briefcase. The bus is in motion, and the man is looking towards the camera.  The bus is a double decker.
+Ground Truth: A large Trailways bus is parked indoors. The bus is white with red and black accents. A man in a yellow jacket walks past the bus. The bus is likely getting ready for a trip.
+BLEU: 0.0938
+ROUGE-1: 0.4368
+ROUGE-2: 0.1882
+ROUGE-L: 0.3218
+BERTScore Precision: 0.6282
+BERTScore Recall: 0.6831
+BERTScore F1: 0.6545
+Distinct-1: 0.6538
+Distinct-2: 0.9608
+Repetition Rate: 0.3462
+Length Ratio: 1.4857
+
+================================================================================
+
+Image Path: 007617.jpg
+Prediction: A white Lamborghini Gallardo is parked on a street in front of a building. The car is parked in front of a black gate that leads to a driveway. The car is parked on the left side of the street, with a small white car parked on the right. The car is parked in front of a large building with a brick facade.  The car is parked in front of a brick wall.
+Ground Truth: Two classic Porsche 911s sit parked on a racetrack. The one in the foreground is a bright blue, while the one in the background is a dark green. Both cars are in pristine condition, and the image captures their classic lines and timeless style.
+BLEU: 0.0000
+ROUGE-1: 0.2735
+ROUGE-2: 0.0348
+ROUGE-L: 0.2393
+BERTScore Precision: 0.5630
+BERTScore Recall: 0.5441
+BERTScore F1: 0.5534
+Distinct-1: 0.4521
+Distinct-2: 0.6389
+Repetition Rate: 0.5479
+Length Ratio: 1.6591
+
+================================================================================
+
+Image Path: 008719.jpg
+Prediction: A man and a woman sit at a table in a restaurant. They are both looking at a menu. The woman is holding a glass of water. The man is looking at the menu intently.  The table is set with a tablecloth, plates, glasses, and silverware.
+Ground Truth: A young woman sits at a table with two glasses of orange juice and a plate of fruit salad in front of her. She is holding a fork and smiling, ready to enjoy her refreshing breakfast. The table is set with glasses, plates, cutlery, and a white tablecloth.
+BLEU: 0.1419
+ROUGE-1: 0.5106
+ROUGE-2: 0.2609
+ROUGE-L: 0.3617
+BERTScore Precision: 0.7124
+BERTScore Recall: 0.6831
+BERTScore F1: 0.6975
+Distinct-1: 0.6522
+Distinct-2: 0.9556
+Repetition Rate: 0.3478
+Length Ratio: 0.9583
+
+================================================================================
+
+Image Path: 002688.jpg
+Prediction: A large locomotive train pulls a line of passenger cars through a tunnel. The train is brightly lit and the tunnel is dark. The train is moving quickly and the cars are in a line behind it. The train is moving through a tunnel on a track.
+Ground Truth: An orange freight train rumbles down the tracks, led by a locomotive emblazoned with the number 650 and a large J.  The train is on a straight track and is surrounded by trees.
+BLEU: 0.0000
+ROUGE-1: 0.4000
+ROUGE-2: 0.1026
+ROUGE-L: 0.2750
+BERTScore Precision: 0.6413
+BERTScore Recall: 0.5814
+BERTScore F1: 0.6099
+Distinct-1: 0.5957
+Distinct-2: 0.8261
+Repetition Rate: 0.4043
+Length Ratio: 1.4242
+
+================================================================================
+
+Image Path: 006211.jpg
+Prediction: A monkey sits on a rock in the jungle, looking directly at the camera. The monkey is alert and curious, with its tail wrapped around its body. The monkey's fur is a mix of brown and black, and its eyes are bright and focused.
+Ground Truth: A black cat stands on a brick building with a grey cement roof extension. the cat is looking towards the camera. the building has a large window with white trim. there are trees in the bottom left corner.
+BLEU: 0.0000
+ROUGE-1: 0.3614
+ROUGE-2: 0.0988
+ROUGE-L: 0.2410
+BERTScore Precision: 0.5831
+BERTScore Recall: 0.5911
+BERTScore F1: 0.5871
+Distinct-1: 0.7727
+Distinct-2: 1.0000
+Repetition Rate: 0.2273
+Length Ratio: 1.1579
+
+================================================================================
+
+Image Path: 005289.jpg
+Prediction: A large, white, long-necked bird with a black head and tail perches on a wooden fence. It has a brown chest and a long, curved beak. The bird is looking to the left and is perched on a wooden fence.
+Ground Truth: Two kookaburras perch on a railing overlooking a swimming pool in a backyard. The birds are facing forward, with their wings tucked in and their heads held high. The pool water is a bright blue, and the surrounding vegetation is lush and green.
+BLEU: 0.0000
+ROUGE-1: 0.3810
+ROUGE-2: 0.0732
+ROUGE-L: 0.2381
+BERTScore Precision: 0.5837
+BERTScore Recall: 0.5522
+BERTScore F1: 0.5675
+Distinct-1: 0.7250
+Distinct-2: 0.9231
+Repetition Rate: 0.2750
+Length Ratio: 0.9302
+
+================================================================================
+
+Image Path: 000894.jpg
+Prediction: A black and white photo of a motorcycle with a sidecar. The motorcycle is parked in front of a building with a sign that says "Tin Roof" in white letters. The motorcycle has a chrome front and a black and white paint job.
+Ground Truth: A German police motorcycle is parked in front of the olympic stadium in berlin. the motorcycle is white and green with the word polizei written across the front. the stadium is in the background.
+BLEU: 0.1249
+ROUGE-1: 0.3896
+ROUGE-2: 0.1600
+ROUGE-L: 0.2857
+BERTScore Precision: 0.6459
+BERTScore Recall: 0.6181
+BERTScore F1: 0.6317
+Distinct-1: 0.6047
+Distinct-2: 0.8810
+Repetition Rate: 0.3953
+Length Ratio: 1.2647
+
+================================================================================
+
+Image Path: 005849.jpg
+Prediction: A woman in a white shirt and jeans stands in front of a train that is parked on the tracks. The train has a large logo on the side that says 'Windsor & Eton Railway'. The woman is looking at the camera with a smile on her face.
+Ground Truth: A family of four stands in front of a chain-link fence, smiling and looking at the camera. Behind them is a large boat, which has the words shipwreck cove printed on the side.  There is a stroller with a child in it in the foreground.  A sunny day out at the harbor!
+BLEU: 0.1249
+ROUGE-1: 0.5400
+ROUGE-2: 0.2245
+ROUGE-L: 0.3000
+BERTScore Precision: 0.6285
+BERTScore Recall: 0.6052
+BERTScore F1: 0.6167
+Distinct-1: 0.7292
+Distinct-2: 0.9787
+Repetition Rate: 0.2708
+Length Ratio: 0.9231
+
+================================================================================
+
+Image Path: 002617.jpg
+Prediction: A white, modern dining room with a large window and a wooden table. The table is set with a white cloth and a vase of flowers. The room is bright and airy.
+Ground Truth: A room is being packed up for a move. The room is filled with boxes, and there are chairs and furniture stacked up in the corners.  It looks like this will be a busy moving day.
+BLEU: 0.0000
+ROUGE-1: 0.3529
+ROUGE-2: 0.0606
+ROUGE-L: 0.2353
+BERTScore Precision: 0.5673
+BERTScore Recall: 0.5382
+BERTScore F1: 0.5523
+Distinct-1: 0.7188
+Distinct-2: 0.9355
+Repetition Rate: 0.2812
+Length Ratio: 0.8889
+
+================================================================================
+
+Image Path: 000145.jpg
+Prediction: A train is parked in a train yard. The train is blue and green and has a large logo on the side. The train is parked on tracks and there is a building in the background.  The train is parked on tracks and there is a building in the background.
+Ground Truth: A black and white photo of a train at a station. The locomotive is on the left side of the image, and a smaller train car is on the right. The locomotive is an older model with a rounded front. The train cars are all coupled together.
+BLEU: 0.0000
+ROUGE-1: 0.4536
+ROUGE-2: 0.0632
+ROUGE-L: 0.3505
+BERTScore Precision: 0.6371
+BERTScore Recall: 0.6300
+BERTScore F1: 0.6335
+Distinct-1: 0.4200
+Distinct-2: 0.6531
+Repetition Rate: 0.5800
+Length Ratio: 1.0638
+
+================================================================================
+
+Image Path: 003959.jpg
+Prediction: A woman wearing a white shirt and black pants stands in front of a wall with a blue background. she is looking at the camera and has a smile on her face. she is holding a cup of coffee in her hand.
+Ground Truth: A group of people stand together in an office setting, smiling and talking. One man in a light blue shirt stands out, holding his hands together and looking down. A woman in a black turtleneck stands to his right, smiling and looking at someone off camera.
+BLEU: 0.0000
+ROUGE-1: 0.4545
+ROUGE-2: 0.0465
+ROUGE-L: 0.2045
+BERTScore Precision: 0.6195
+BERTScore Recall: 0.6245
+BERTScore F1: 0.6220
+Distinct-1: 0.7619
+Distinct-2: 0.9756
+Repetition Rate: 0.2381
+Length Ratio: 0.9130
+
+================================================================================
+
+Image Path: 006253.jpg
+Prediction: A black and white photo of a dog and a cat laying on a blanket. The dog is on the left and the cat is on the right. Both animals are looking at the camera.  The dog is looking up and the cat is looking down.  The dog has a collar on.  The cat has a paw on the blanket.
+Ground Truth: A brown and white dog sits to the left of the frame, facing the camera. A black cat sits to the right, facing away from the camera. The cat stares intently at the dog. Both animals appear to be in the same room.
+BLEU: 0.0000
+ROUGE-1: 0.4660
+ROUGE-2: 0.1980
+ROUGE-L: 0.3301
+BERTScore Precision: 0.6518
+BERTScore Recall: 0.6646
+BERTScore F1: 0.6581
+Distinct-1: 0.4833
+Distinct-2: 0.8136
+Repetition Rate: 0.5167
+Length Ratio: 1.3953
+
+================================================================================
+
+Image Path: 009065.jpg
+Prediction: A red and black motorcycle sits on a wooden surface, with a helmet and a black bag in the background. The motorcycle is a Suzuki GSXR, a popular sport bike.
+Ground Truth: A bright yellow vintage motorcycle is parked on a street in front of a brick wall.  The motorcycle has a sidecar and a license plate that reads 06292. It has a classic, boxy design.
+BLEU: 0.0000
+ROUGE-1: 0.4062
+ROUGE-2: 0.1290
+ROUGE-L: 0.2812
+BERTScore Precision: 0.6046
+BERTScore Recall: 0.5898
+BERTScore F1: 0.5971
+Distinct-1: 0.7667
+Distinct-2: 1.0000
+Repetition Rate: 0.2333
+Length Ratio: 0.8824
+
+================================================================================
+
+Image Path: 005137.jpg
+Prediction: A herd of sheep graze in a green field, with a small brown dog in the foreground. The sheep are a mix of black and white, and the dog is looking at them curiously. The sky is a clear blue and there are some clouds in the distance.
+Ground Truth: Two white sheep graze on a lush green hillside. The sheep are in the foreground with a cliff and a body of water in the background. The hillsides are green and lush with patches of brown.
+BLEU: 0.0000
+ROUGE-1: 0.5476
+ROUGE-2: 0.1707
+ROUGE-L: 0.2857
+BERTScore Precision: 0.6673
+BERTScore Recall: 0.7200
+BERTScore F1: 0.6926
+Distinct-1: 0.6875
+Distinct-2: 0.9787
+Repetition Rate: 0.3125
+Length Ratio: 1.3333
+
+================================================================================
+
+Image Path: 003302.jpg
+Prediction: A bus drives through a busy intersection in the city, with traffic lights and a stop sign visible. The bus is blue and white, with a large advertisement on the side.  The bus is full of people, and there are more people waiting at the bus stop.
+Ground Truth: A red double-decker bus is stopped at a crosswalk on a dark city street. the bus is lit up by street lights and its headlights, and the windows of the buildings are reflected in the wet asphalt. the bus is heading towards the camera.
+BLEU: 0.0000
+ROUGE-1: 0.5000
+ROUGE-2: 0.1333
+ROUGE-L: 0.2826
+BERTScore Precision: 0.6498
+BERTScore Recall: 0.6424
+BERTScore F1: 0.6461
+Distinct-1: 0.7447
+Distinct-2: 0.9565
+Repetition Rate: 0.2553
+Length Ratio: 1.0682
+
+================================================================================
+
+Image Path: 007357.jpg
+Prediction: A white boat with a blue stripe sits in the water, with a white sailboat in the background. The boat has a blue and white sail and a small outboard motor.  The sailboat is a smaller, more traditional style boat.
+Ground Truth: A peaceful lake scene with three boats, two of which are in the foreground and carrying passengers, the other is in the distance. A large tree branch is in the foreground above the water. The backdrop is of a hazy mountain.
+BLEU: 0.0000
+ROUGE-1: 0.3457
+ROUGE-2: 0.0759
+ROUGE-L: 0.2716
+BERTScore Precision: 0.5696
+BERTScore Recall: 0.5903
+BERTScore F1: 0.5798
+Distinct-1: 0.6500
+Distinct-2: 0.9231
+Repetition Rate: 0.3500
+Length Ratio: 0.9756
+
+================================================================================
+
+Image Path: 002904.jpg
+Prediction: A young man in a black and white striped shirt sits at a table, holding a glass of beer and a plate of food. he has a tattoo on his forearm.  he is smiling and looking at the camera.
+Ground Truth: Three young men sit at a table in a dimly lit restaurant. Two of the men are looking directly at the camera while the third man is looking to the side. There are multiple glasses and bottles on the table.
+BLEU: 0.0000
+ROUGE-1: 0.4304
+ROUGE-2: 0.1558
+ROUGE-L: 0.2785
+BERTScore Precision: 0.6114
+BERTScore Recall: 0.6363
+BERTScore F1: 0.6236
+Distinct-1: 0.7692
+Distinct-2: 1.0000
+Repetition Rate: 0.2308
+Length Ratio: 0.9750
+
+================================================================================
+
+Image Path: 005533.jpg
+Prediction: A woman in a white top and black shorts sits on a bench in front of a brick building. She is looking down at her phone. The building is in the background.
+Ground Truth: A bride and groom stand at the altar, exchanging vows, as guests look on. The bride wears a white dress and veil, while the groom wears a black suit and tie. They are surrounded by floral arrangements and candles. The ceremony is being held in a church.
+BLEU: 0.0000
+ROUGE-1: 0.3544
+ROUGE-2: 0.0519
+ROUGE-L: 0.2025
+BERTScore Precision: 0.5392
+BERTScore Recall: 0.5018
+BERTScore F1: 0.5198
+Distinct-1: 0.8438
+Distinct-2: 1.0000
+Repetition Rate: 0.1562
+Length Ratio: 0.6809
+
+================================================================================
+
+Image Path: 003304.jpg
+Prediction: A man in a white t-shirt and black shorts rides a brown and white horse on a beach. The horse is galloping in the sand and the man is smiling. The horse is wearing a bridle and the man is holding the reins. The beach is lined with palm trees and the sky is blue.
+Ground Truth: A man in traditional riding attire sits astride a brown and white horse. He is wearing a black cap, a yellow shirt, a brown vest, and brown pants. He has a serious expression on his face. The horse is looking down at the ground.  The photo is taken in a field.
+BLEU: 0.1077
+ROUGE-1: 0.4673
+ROUGE-2: 0.2095
+ROUGE-L: 0.3364
+BERTScore Precision: 0.6770
+BERTScore Recall: 0.6737
+BERTScore F1: 0.6753
+Distinct-1: 0.5636
+Distinct-2: 0.8889
+Repetition Rate: 0.4364
+Length Ratio: 1.0784
+
+================================================================================
+
+Image Path: 002018.jpg
+Prediction: A young woman in a blue dress sits on a couch with a dog on her lap. The woman is looking down at the dog and has a smile on her face. The couch is set against a brick wall and the room is lit with natural light.
+Ground Truth: Two people nap on couches in a living room. A woman in a blue and black dress sleeps on a couch with a purple and grey pillow. A person in blue jeans sleeps on a plaid couch.
+BLEU: 0.1398
+ROUGE-1: 0.4471
+ROUGE-2: 0.1687
+ROUGE-L: 0.3529
+BERTScore Precision: 0.5279
+BERTScore Recall: 0.6519
+BERTScore F1: 0.5834
+Distinct-1: 0.6667
+Distinct-2: 0.9787
+Repetition Rate: 0.3333
+Length Ratio: 1.2973
+
+================================================================================
+
+Image Path: 000643.jpg
+Prediction: A man in a blue jacket and a helmet stands on a dirt track, holding a motorcycle with a black and white paint job. He is standing on the side of the track, looking down at the motorcycle.
+Ground Truth: Two men stand near a motorcycle, talking and gesturing. One man wears a white t-shirt and dark pants. The other man wears a blue jacket, black pants, and a helmet. The men stand on a dirt path with a mountain range in the distance.
+BLEU: 0.0000
+ROUGE-1: 0.5783
+ROUGE-2: 0.2222
+ROUGE-L: 0.3614
+BERTScore Precision: 0.6677
+BERTScore Recall: 0.6430
+BERTScore F1: 0.6551
+Distinct-1: 0.7632
+Distinct-2: 1.0000
+Repetition Rate: 0.2368
+Length Ratio: 0.8636
+
+================================================================================
+
+Image Path: 000795.jpg
+Prediction: A train passes through a rural landscape, with a large body of water in the background. The train is moving towards the left of the frame, and the track curves to the right.  The train is a blue and white locomotive.
+Ground Truth: A view from a train window, looking out at a large industrial building with a blue and white striped roof. The building is next to a train track, with cargo containers lined up along it. A cloudy sky hangs overhead.
+BLEU: 0.0871
+ROUGE-1: 0.3704
+ROUGE-2: 0.1519
+ROUGE-L: 0.2469
+BERTScore Precision: 0.6035
+BERTScore Recall: 0.5902
+BERTScore F1: 0.5968
+Distinct-1: 0.7073
+Distinct-2: 0.9500
+Repetition Rate: 0.2927
+Length Ratio: 1.0250
+
+================================================================================
+
+Image Path: 007769.jpg
+Prediction: A woman in a white shirt and black skirt stands in a room with a black and white floor. She is looking down at her phone, which is in her left hand. She is standing in front of a window that is covered with a curtain. The room is empty except for a chair in the background.
+Ground Truth: A man and a woman play miniature golf. the woman is looking intently at her shot while the man is looking down at his club. they are both dressed casually, and it looks like they are having a good time.
+BLEU: 0.0576
+ROUGE-1: 0.2887
+ROUGE-2: 0.1053
+ROUGE-L: 0.2062
+BERTScore Precision: 0.5055
+BERTScore Recall: 0.5635
+BERTScore F1: 0.5329
+Distinct-1: 0.6491
+Distinct-2: 0.9464
+Repetition Rate: 0.3509
+Length Ratio: 1.4250
+
+================================================================================
+
+Image Path: 004125.jpg
+Prediction: A man in a suit and tie stands in front of a large wall with a mural of a woman. The man is looking up at the mural and appears to be in deep thought. The mural features a woman with long dark hair and a bright red dress. The mural is a large and striking piece of art.
+Ground Truth: A young man in a red shirt sits and smiles at an older woman in traditional clothing, while she smiles back and holds a hand to her chin. They both appear to be sitting in a stall filled with colorful fabrics.  The older woman is wearing many bracelets and necklaces.
+BLEU: 0.0000
+ROUGE-1: 0.3853
+ROUGE-2: 0.0748
+ROUGE-L: 0.2936
+BERTScore Precision: 0.6166
+BERTScore Recall: 0.6014
+BERTScore F1: 0.6089
+Distinct-1: 0.6271
+Distinct-2: 0.9483
+Repetition Rate: 0.3729
+Length Ratio: 1.1800
+
+================================================================================
+
+Image Path: 009485.jpg
+Prediction: A woman sits on a couch in a living room, with a dog on her lap. The woman is looking down at the dog and smiling. The dog is looking up at the woman.
+Ground Truth: A small dog is curled up on a couch, sleeping with a person. The scene is in sepia tone.
+BLEU: 0.0000
+ROUGE-1: 0.4528
+ROUGE-2: 0.1569
+ROUGE-L: 0.3019
+BERTScore Precision: 0.5839
+BERTScore Recall: 0.6025
+BERTScore F1: 0.5931
+Distinct-1: 0.6765
+Distinct-2: 0.9394
+Repetition Rate: 0.3235
+Length Ratio: 1.7895
+
+================================================================================
+
+Image Path: 007206.jpg
+Prediction: A train pulls a red and white passenger car through the countryside. The train is traveling through a forest with trees on either side of the tracks. The train is moving quickly and is creating a trail of steam behind it.
+Ground Truth: A yellow train pulls into a station platform.  The train is illuminated by its headlights, while the platform is dimly lit. The platform is empty except for a single person standing on the edge of the platform.  A second person can be seen standing in the distance.  A cloudy sky hangs over the station.
+BLEU: 0.0000
+ROUGE-1: 0.3368
+ROUGE-2: 0.0860
+ROUGE-L: 0.2737
+BERTScore Precision: 0.6201
+BERTScore Recall: 0.5685
+BERTScore F1: 0.5932
+Distinct-1: 0.7317
+Distinct-2: 0.9500
+Repetition Rate: 0.2683
+Length Ratio: 0.7593
+
+================================================================================
+
+Image Path: 007730.jpg
+Prediction: A group of birds perch on a wooden fence, one of them looking to the side. The birds are white and black and their feathers are sleek.  The birds are perched on a wooden fence, looking alert and inquisitive.
+Ground Truth: A grey heron with its wings spread wide soars through the air, its long legs trailing behind. The bird is in flight over a field of tall green grass, with a blurred background of trees and foliage. The heron's feathers are a mixture of grey and white, and its long beak is pointed forward.
+BLEU: 0.0000
+ROUGE-1: 0.3191
+ROUGE-2: 0.0652
+ROUGE-L: 0.1915
+BERTScore Precision: 0.5948
+BERTScore Recall: 0.5634
+BERTScore F1: 0.5787
+Distinct-1: 0.6667
+Distinct-2: 0.8684
+Repetition Rate: 0.3333
+Length Ratio: 0.7222
+
+================================================================================
+
+Image Path: 000747.jpg
+Prediction: A silver, four-door, 1967 Ford Mustang fastback is parked in front of a building with a sign that reads "The Old Barn." The car is a classic muscle car with a long hood and a distinctive design.
+Ground Truth: A white Saab concept car with sleek, futuristic lines and a large, prominent grille. The car is displayed on a metallic floor with a blurred background, suggesting an automotive show or presentation.  The Saab logo is prominently displayed on the hood.
+BLEU: 0.0000
+ROUGE-1: 0.3544
+ROUGE-2: 0.1299
+ROUGE-L: 0.2532
+BERTScore Precision: 0.5866
+BERTScore Recall: 0.5893
+BERTScore F1: 0.5880
+Distinct-1: 0.8108
+Distinct-2: 0.9722
+Repetition Rate: 0.1892
+Length Ratio: 0.9024
+
+================================================================================
+
+Image Path: 001698.jpg
+Prediction: A large sailing yacht with a white hull and red trim sails on the water. The yacht is flying a blue and white flag with a white cross on it. The yacht is surrounded by other boats and yachts.
+Ground Truth: A small, white,  cabin cruiser is docked and tied to a red barge. The barge has a green tarp covering its cargo. Both vessels are floating in still, gray water.  The photo is taken from a slight overhead angle.
+BLEU: 0.0000
+ROUGE-1: 0.3077
+ROUGE-2: 0.0263
+ROUGE-L: 0.2308
+BERTScore Precision: 0.6384
+BERTScore Recall: 0.5988
+BERTScore F1: 0.6179
+Distinct-1: 0.6923
+Distinct-2: 0.8947
+Repetition Rate: 0.3077
+Length Ratio: 1.0000
+
+================================================================================
+
+Image Path: 009380.jpg
+Prediction: A man in a cowboy hat and a brown jacket sits on a brown horse. The horse is standing in a field with trees in the background. The man is looking off into the distance.
+Ground Truth: A white horse and rider jump over a white and black fence during a show jumping competition. The horse is in mid-air, and the rider is leaning forward. The rider's white helmet and blue jacket are clearly visible.  The green grass is in focus and the background is a blur.
+BLEU: 0.0000
+ROUGE-1: 0.3908
+ROUGE-2: 0.0706
+ROUGE-L: 0.2759
+BERTScore Precision: 0.6356
+BERTScore Recall: 0.5982
+BERTScore F1: 0.6163
+Distinct-1: 0.7143
+Distinct-2: 0.9412
+Repetition Rate: 0.2857
+Length Ratio: 0.7000
+
+================================================================================
+
+Image Path: 000297.jpg
+Prediction: A cow stands in a field, looking away from the camera. It is standing on a patch of grass that is partially covered by a large, black metal gate. The cow is standing in a field, looking away from the camera. The field is partially covered by a large, black metal gate.
+Ground Truth: A little girl in a pink and white shirt smiles as she stands with her arm around a brown and white cow. The girl is holding the cow's tail.  An adult man is behind them, holding the cow's halter.  All three are standing in a barn.
+BLEU: 0.0000
+ROUGE-1: 0.3000
+ROUGE-2: 0.0816
+ROUGE-L: 0.2400
+BERTScore Precision: 0.5314
+BERTScore Recall: 0.5352
+BERTScore F1: 0.5333
+Distinct-1: 0.5385
+Distinct-2: 0.6863
+Repetition Rate: 0.4615
+Length Ratio: 1.1304
+
+================================================================================
+
+Image Path: 007176.jpg
+Prediction: A man in a black shirt and jeans stands in front of a grey car, looking down at his phone. He has a black backpack on his back and a black and white hat on his head.  The car is a silver and black Mercedes-Benz.
+Ground Truth: A bright green race car is parked in a garage. The driver is standing next to it with the door open,  the number 23 is clearly displayed on the side of the car. The car is sponsored by Elorus Technology with the website displayed on the side.
+BLEU: 0.0000
+ROUGE-1: 0.2366
+ROUGE-2: 0.0659
+ROUGE-L: 0.1935
+BERTScore Precision: 0.5478
+BERTScore Recall: 0.5363
+BERTScore F1: 0.5420
+Distinct-1: 0.6889
+Distinct-2: 0.9318
+Repetition Rate: 0.3111
+Length Ratio: 0.9574
+
+================================================================================
+
+
+
+====== Average Scores ======
+Average BLEU: 0.0286
+Average ROUGE-1: 0.3860
+Average ROUGE-2: 0.1176
+Average ROUGE-L: 0.2753
+Average BERTScore Precision: 0.6173
+Average BERTScore Recall: 0.6025
+Average BERTScore F1: 0.6092
+Average Distinct-1: 0.6759
+Average Distinct-2: 0.9102
+Average Repetition Rate: 0.3241
+Average Length Ratio: 1.0921
