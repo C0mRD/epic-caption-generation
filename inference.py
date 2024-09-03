@@ -62,7 +62,7 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
 def formatting_prompts_func(examples):
     instructions = examples["instruction"]
     inputs = examples["input"]
-    outputs = examples["description"]
+    outputs = ""
     texts = []
     for instruction, input, output in zip(instructions, inputs, outputs):
         text = alpaca_prompt.format(instruction, input, output) + EOS_TOKEN
@@ -174,10 +174,10 @@ def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
             return_tensors='pt',
             padding=True,
             truncation=True,
-            max_length=512
+            max_length=2048
         ).to('cuda')
 
-        outputs = model.generate(**inputs, max_new_tokens=1000)
+        outputs = model.generate(**inputs, max_new_tokens=2000)
         generated_outputs = extract_response(str(tokenizer.decode(outputs[0], skip_special_tokens=True)))
         prediction = trim_to_last_sentence(generated_outputs)
         print("\nprediction: ===== \n")
