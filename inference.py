@@ -159,14 +159,16 @@ def save_scores_to_csv(output_path, row_data):
 def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
     dataset = load_dataset('csv', data_files={'test': dataset_path})
 
-    formatted_dataset = dataset.map(formatting_prompts_func, batched=True)
+    test_data = dataset['test']
+
+    formatted_dataset = test_data.map(formatting_prompts_func, batched=True)
 
     predictions = []
     ground_truths = []
 
     FastLanguageModel.for_inference(model)
 
-    for idx, example in enumerate(formatted_dataset['test']):
+    for idx, example in enumerate(formatted_dataset['text']):
         inputs = tokenizer(
             example,
             return_tensors='pt',
