@@ -10,16 +10,14 @@ from collections import Counter
 import numpy as np
 import torch
 import os
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+from tqdm import tqdm
 from unsloth import FastLanguageModel
-import torch
-from datasets import load_dataset
 from trl import SFTTrainer
 from transformers import TrainingArguments
 
 model_path = str(input("Enter the model path: "))
 dataset_path = str(input("Enter the dataset path: "))
-output_path = str(input("Enter the path to save all scores: "))  # Output path modified to a CSV file
+output_path = "scores/scores.txt"  # Output path modified to a text file
 
 max_seq_length = 2048
 dtype = torch.float16
@@ -48,6 +46,7 @@ model = FastLanguageModel.get_peft_model(
 
 EOS_TOKEN = tokenizer.eos_token
 
+# Alpaca prompt template
 alpaca_prompt = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
 
 ### Instruction:
@@ -59,16 +58,7 @@ alpaca_prompt = """Below is an instruction that describes a task, paired with an
 ### Response:
 {}"""
 
-def formatting_prompts_func(examples):
-    instructions = examples["instruction"]
-    inputs = examples["input"]
-    outputs = ""
-    texts = []
-    for instruction, input, output in zip(instructions, inputs, outputs):
-        text = alpaca_prompt.format(instruction, input, output) + EOS_TOKEN
-        texts.append(text)
-    return {"text": texts}
-
+# Function to calculate distinctness scores
 def calculate_distinctness(predictions):
     unigrams = Counter()
     bigrams = Counter()
@@ -81,6 +71,7 @@ def calculate_distinctness(predictions):
     distinct2 = len(bigrams) / sum(bigrams.values()) if bigrams else 0
     return distinct1, distinct2
 
+# Function to calculate repetition rate
 def calculate_repetition_rate(predictions):
     total_tokens = 0
     repeated_tokens = 0
@@ -91,10 +82,12 @@ def calculate_repetition_rate(predictions):
 
     return repeated_tokens / total_tokens if total_tokens else 0
 
+# Function to calculate length ratio
 def calculate_length_ratio(predictions, references):
     ratios = [len(pred.split()) / len(ref.split()) if len(ref.split()) > 0 else 0 for pred, ref in zip(predictions, references)]
     return sum(ratios) / len(ratios)
 
+# Function to calculate various metrics
 def calculate_metrics(predictions, references):
     bleu_scores = []
     rouge_scores = {"rouge1": [], "rouge2": [], "rougeL": []}
@@ -122,6 +115,7 @@ def calculate_metrics(predictions, references):
 
     return avg_bleu, avg_rouge1, avg_rouge2, avg_rougeL, P.mean().item(), R.mean().item(), F1.mean().item(), distinct1, distinct2, repetition_rate, length_ratio
 
+# Function to extract response from generated text
 def extract_response(text):
     parts = text.split("###")
     response_part = parts[-1]
@@ -129,6 +123,7 @@ def extract_response(text):
     response = response[:-17]
     return response
 
+# Function to trim generated text to the last complete sentence
 def trim_to_last_sentence(text):
     end_punctuation = ['.', '!', '?']
     text = text.rstrip()
@@ -139,17 +134,8 @@ def trim_to_last_sentence(text):
     else:
         return text
 
+# Function to save evaluation scores to a text file
 def save_scores_to_txt(output_path, image_path, prediction, ground_truth, scores):
-    """
-    Save the evaluation details to a text file.
-
-    Args:
-    - output_path: Path to the output text file.
-    - image_path: Path to the image from the dataset.
-    - prediction: The model's prediction for the input.
-    - ground_truth: The actual ground truth response.
-    - scores: A tuple containing the calculated metrics for the current epoch.
-    """
     with open(output_path, 'a') as file:
         file.write(f"Image Path: {image_path}\n")
         file.write(f"Prediction: {prediction}\n")
@@ -167,81 +153,91 @@ def save_scores_to_txt(output_path, image_path, prediction, ground_truth, scores
         file.write(f"Length Ratio: {scores[10]:.4f}\n")
         file.write("\n" + "="*80 + "\n\n")
 
-def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
-    dataset = load_dataset('csv', data_files={'test': dataset_path})
-    test_data = dataset['test']
+# Load the dataset
+df = pd.read_csv(dataset_path)
 
-    formatted_dataset = test_data.map(formatting_prompts_func, batched=True)
+# Initialize score lists
+perplexities = []
+bleu_scores = []
+rouge_scores = []
+bertscore_p = []
+bertscore_r = []
+bertscore_f1 = []
+distinct1_scores = []
+distinct2_scores = []
+moverscore_scores = []
+repetition_rates = []
+length_ratios = []
 
-    predictions = []
-    ground_truths = []
+FastLanguageModel.for_inference(model)
 
-    FastLanguageModel.for_inference(model)
+# Iterate over each row in the dataset
+for index, row in tqdm(df.iterrows(), total=df.shape[0]):
+    instruction = row['instruction']
+    input_text = row['input']
+    target_output = row['description']
+    image_path = row.get('image_path', 'N/A')  # Fetch image path if available
 
-    for idx, example in enumerate(formatted_dataset['text']):
-        inputs = tokenizer(
-            example,
-            return_tensors='pt',
-            padding=True,
-            truncation=True,
-            max_length=1024
-        ).to('cuda')
+    # Prepare the input for the model
+    prompt = alpaca_prompt.format(instruction, input_text, "")
+    inputs = tokenizer([prompt], return_tensors="pt").to("cuda:0")
 
-        outputs = model.generate(**inputs, max_new_tokens=1000)
-        generated_outputs = extract_response(str(tokenizer.decode(outputs[0], skip_special_tokens=True)))
-        prediction = trim_to_last_sentence(generated_outputs)
-        print("\nprediction: ===== \n")
-        print(prediction)
-        print("\nend of prediction: ===== \n")
-        predictions.append(prediction)
+    # Generate the model output
+    outputs = model.generate(**inputs, max_new_tokens=1000, use_cache=True)
+    generated_output = extract_response(str(tokenizer.batch_decode(outputs)))
+    generated_output = trim_to_last_sentence(generated_output)
 
-        ground_truth = example.split("### Response:")[1].strip()
-        print("\nGT: ===== \n")
-        print(ground_truth)
-        print("\nend of GT: ===== \n")
-        ground_truths.append(ground_truth)
+    print("=============================Output=================")
+    print(generated_output)
+    print("=============================Target=================")
+    print(target_output)
+    print("====================================================")
 
-        # Calculate metrics for the current iteration
-        iteration_scores = calculate_metrics([prediction], [ground_truth])
+    # Calculate scores for the current example
+    iteration_scores = calculate_metrics([generated_output], [target_output])
 
-        # Get the image path from the dataset
-        image_path = test_data['image_path'][idx]  # Adjust the key according to your dataset structure
+    # Save the prediction, ground truth, and scores to a text file
+    save_scores_to_txt(output_path, image_path, generated_output, target_output, iteration_scores)
 
-        # Save the prediction, ground truth, and scores to a text file
-        save_scores_to_txt(output_path, image_path, prediction, ground_truth, iteration_scores)
+    # Append individual scores to the respective lists for averaging later
+    bleu_scores.append(iteration_scores[0])
+    rouge_scores.append(iteration_scores[1:4])
+    bertscore_p.append(iteration_scores[4])
+    bertscore_r.append(iteration_scores[5])
+    bertscore_f1.append(iteration_scores[6])
+    distinct1_scores.append(iteration_scores[7])
+    distinct2_scores.append(iteration_scores[8])
+    repetition_rates.append(iteration_scores[9])
+    length_ratios.append(iteration_scores[10])
 
-    # Calculate overall metrics for all predictions
-    overall_scores = calculate_metrics(predictions, ground_truths)
+    torch.cuda.empty_cache()
 
-    # Save the overall average scores to the text file
-    with open(output_path, 'a') as file:
-        file.write("Overall Average Scores:\n")
-        file.write(f"Average BLEU Score: {overall_scores[0]:.4f}\n")
-        file.write(f"Average ROUGE-1 Score: {overall_scores[1]:.4f}\n")
-        file.write(f"Average ROUGE-2 Score: {overall_scores[2]:.4f}\n")
-        file.write(f"Average ROUGE-L Score: {overall_scores[3]:.4f}\n")
-        file.write(f"BERTScore Precision: {overall_scores[4]:.4f}\n")
-        file.write(f"BERTScore Recall: {overall_scores[5]:.4f}\n")
-        file.write(f"BERTScore F1: {overall_scores[6]:.4f}\n")
-        file.write(f"Distinct-1: {overall_scores[7]:.4f}\n")
-        file.write(f"Distinct-2: {overall_scores[8]:.4f}\n")
-        file.write(f"Repetition Rate: {overall_scores[9]:.4f}\n")
-        file.write(f"Length Ratio: {overall_scores[10]:.4f}\n")
-        file.write("\n" + "="*80 + "\n\n")
+# Calculate average scores
+avg_bleu = sum(bleu_scores) / len(bleu_scores)
+avg_rouge_1 = sum([score[0] for score in rouge_scores]) / len(rouge_scores)
+avg_rouge_2 = sum([score[1] for score in rouge_scores]) / len(rouge_scores)
+avg_rouge_l = sum([score[2] for score in rouge_scores]) / len(rouge_scores)
+avg_bertscore_p = sum(bertscore_p) / len(bertscore_p)
+avg_bertscore_r = sum(bertscore_r) / len(bertscore_r)
+avg_bertscore_f1 = sum(bertscore_f1) / len(bertscore_f1)
+avg_distinct1 = sum(distinct1_scores) / len(distinct1_scores)
+avg_distinct2 = sum(distinct2_scores) / len(distinct2_scores)
+avg_repetition_rate = sum(repetition_rates) / len(repetition_rates)
+avg_length_ratio = sum(length_ratios) / len(length_ratios)
 
-    return overall_scores
+# Write the average scores to the output file
+with open(output_path, 'a') as file:
+    file.write("\n\n====== Average Scores ======\n")
+    file.write(f"Average BLEU: {avg_bleu:.4f}\n")
+    file.write(f"Average ROUGE-1: {avg_rouge_1:.4f}\n")
+    file.write(f"Average ROUGE-2: {avg_rouge_2:.4f}\n")
+    file.write(f"Average ROUGE-L: {avg_rouge_l:.4f}\n")
+    file.write(f"Average BERTScore Precision: {avg_bertscore_p:.4f}\n")
+    file.write(f"Average BERTScore Recall: {avg_bertscore_r:.4f}\n")
+    file.write(f"Average BERTScore F1: {avg_bertscore_f1:.4f}\n")
+    file.write(f"Average Distinct-1: {avg_distinct1:.4f}\n")
+    file.write(f"Average Distinct-2: {avg_distinct2:.4f}\n")
+    file.write(f"Average Repetition Rate: {avg_repetition_rate:.4f}\n")
+    file.write(f"Average Length Ratio: {avg_length_ratio:.4f}\n")
 
-scores = evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path)
-
-# Print aggregated scores
-print(f"Average BLEU Score: {scores[0]}")
-print(f"Average ROUGE-1 Score: {scores[1]}")
-print(f"Average ROUGE-2 Score: {scores[2]}")
-print(f"Average ROUGE-L Score: {scores[3]}")
-print(f"BERTScore Precision: {scores[4]}")
-print(f"BERTScore Recall: {scores[5]}")
-print(f"BERTScore F1: {scores[6]}")
-print(f"Distinct-1: {scores[7]}")
-print(f"Distinct-2: {scores[8]}")
-print(f"Repetition Rate: {scores[9]}")
-print(f"Length Ratio: {scores[10]}")
+print("Evaluation complete. Results written to", output_path)
