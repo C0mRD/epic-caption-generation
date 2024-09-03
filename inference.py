@@ -19,7 +19,7 @@ from transformers import TrainingArguments
 
 model_path = str(input("Enter the model path: "))
 dataset_path = str(input("Enter the dataset path: "))
-output_path = "scores/scores.csv"  # Output path modified to a CSV file
+output_path = str(input("Enter the path to save all scores: "))  # Output path modified to a CSV file
 
 max_seq_length = 2048
 dtype = torch.float16
@@ -139,26 +139,36 @@ def trim_to_last_sentence(text):
     else:
         return text
 
-def save_scores_to_csv(output_path, row_data):
-    # Check if the file exists and if not, create it with headers
-    file_exists = os.path.isfile(output_path)
-    headers = [
-        "Model_Name", "Prediction", "Ground_Truth", "Extracted_Response",
-        "BLEU", "ROUGE-1", "ROUGE-2", "ROUGE-L",
-        "BERTScore_Precision", "BERTScore_Recall", "BERTScore_F1",
-        "Distinct-1", "Distinct-2", "Repetition_Rate", "Length_Ratio"
-    ]
+def save_scores_to_txt(output_path, image_path, prediction, ground_truth, scores):
+    """
+    Save the evaluation details to a text file.
 
-    df = pd.DataFrame([row_data], columns=headers)
-
-    if file_exists:
-        df.to_csv(output_path, mode='a', header=False, index=False)
-    else:
-        df.to_csv(output_path, mode='w', header=True, index=False)
+    Args:
+    - output_path: Path to the output text file.
+    - image_path: Path to the image from the dataset.
+    - prediction: The model's prediction for the input.
+    - ground_truth: The actual ground truth response.
+    - scores: A tuple containing the calculated metrics for the current epoch.
+    """
+    with open(output_path, 'a') as file:
+        file.write(f"Image Path: {image_path}\n")
+        file.write(f"Prediction: {prediction}\n")
+        file.write(f"Ground Truth: {ground_truth}\n")
+        file.write(f"BLEU: {scores[0]:.4f}\n")
+        file.write(f"ROUGE-1: {scores[1]:.4f}\n")
+        file.write(f"ROUGE-2: {scores[2]:.4f}\n")
+        file.write(f"ROUGE-L: {scores[3]:.4f}\n")
+        file.write(f"BERTScore Precision: {scores[4]:.4f}\n")
+        file.write(f"BERTScore Recall: {scores[5]:.4f}\n")
+        file.write(f"BERTScore F1: {scores[6]:.4f}\n")
+        file.write(f"Distinct-1: {scores[7]:.4f}\n")
+        file.write(f"Distinct-2: {scores[8]:.4f}\n")
+        file.write(f"Repetition Rate: {scores[9]:.4f}\n")
+        file.write(f"Length Ratio: {scores[10]:.4f}\n")
+        file.write("\n" + "="*80 + "\n\n")
 
 def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
     dataset = load_dataset('csv', data_files={'test': dataset_path})
-
     test_data = dataset['test']
 
     formatted_dataset = test_data.map(formatting_prompts_func, batched=True)
@@ -174,10 +184,10 @@ def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
             return_tensors='pt',
             padding=True,
             truncation=True,
-            max_length=2048
+            max_length=1024
         ).to('cuda')
 
-        outputs = model.generate(**inputs, max_new_tokens=2000)
+        outputs = model.generate(**inputs, max_new_tokens=1000)
         generated_outputs = extract_response(str(tokenizer.decode(outputs[0], skip_special_tokens=True)))
         prediction = trim_to_last_sentence(generated_outputs)
         print("\nprediction: ===== \n")
@@ -194,21 +204,33 @@ def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
         # Calculate metrics for the current iteration
         iteration_scores = calculate_metrics([prediction], [ground_truth])
 
-        # Save the prediction, extracted response, ground truth, and scores
-        row_data = [
-            model_path, prediction, ground_truth, generated_outputs,
-            iteration_scores[0], iteration_scores[1], iteration_scores[2], iteration_scores[3],
-            iteration_scores[4], iteration_scores[5], iteration_scores[6],
-            iteration_scores[7], iteration_scores[8], iteration_scores[9], iteration_scores[10]
-        ]
-        save_scores_to_csv(output_path, row_data)
+        # Get the image path from the dataset
+        image_path = test_data['image_path'][idx]  # Adjust the key according to your dataset structure
+
+        # Save the prediction, ground truth, and scores to a text file
+        save_scores_to_txt(output_path, image_path, prediction, ground_truth, iteration_scores)
 
     # Calculate overall metrics for all predictions
     overall_scores = calculate_metrics(predictions, ground_truths)
 
+    # Save the overall average scores to the text file
+    with open(output_path, 'a') as file:
+        file.write("Overall Average Scores:\n")
+        file.write(f"Average BLEU Score: {overall_scores[0]:.4f}\n")
+        file.write(f"Average ROUGE-1 Score: {overall_scores[1]:.4f}\n")
+        file.write(f"Average ROUGE-2 Score: {overall_scores[2]:.4f}\n")
+        file.write(f"Average ROUGE-L Score: {overall_scores[3]:.4f}\n")
+        file.write(f"BERTScore Precision: {overall_scores[4]:.4f}\n")
+        file.write(f"BERTScore Recall: {overall_scores[5]:.4f}\n")
+        file.write(f"BERTScore F1: {overall_scores[6]:.4f}\n")
+        file.write(f"Distinct-1: {overall_scores[7]:.4f}\n")
+        file.write(f"Distinct-2: {overall_scores[8]:.4f}\n")
+        file.write(f"Repetition Rate: {overall_scores[9]:.4f}\n")
+        file.write(f"Length Ratio: {overall_scores[10]:.4f}\n")
+        file.write("\n" + "="*80 + "\n\n")
+
     return overall_scores
 
-# Evaluate the model on the dataset
 scores = evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path)
 
 # Print aggregated scores
