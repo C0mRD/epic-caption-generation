@@ -157,7 +157,7 @@ def save_scores_to_csv(output_path, row_data):
         df.to_csv(output_path, mode='w', header=True, index=False)
 
 def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
-    dataset = load_dataset('csv', data_files={'train': dataset_path})
+    dataset = load_dataset('csv', data_files={'test': dataset_path})
 
     formatted_dataset = dataset.map(formatting_prompts_func, batched=True)
 
@@ -166,7 +166,7 @@ def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
 
     FastLanguageModel.for_inference(model)
 
-    for idx, example in enumerate(formatted_dataset['text']):
+    for idx, example in enumerate(formatted_dataset['test']):
         inputs = tokenizer(
             example,
             return_tensors='pt',
