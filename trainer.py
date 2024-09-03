@@ -115,11 +115,6 @@ pass
 
 dataset = load_dataset('csv', data_files={'train': dataset_path}) #load the dataset
 
-# Reserve 10% of the data for testing
-fulldataset = dataset
-dataset = fulldataset.train_test_split(test_size=0.1)['train']
-test_data = fulldataset.train_test_split(test_size=0.1)['test']
-
 dataset = dataset.map(formatting_prompts_func, batched = True,)
 #for own dataset training
 

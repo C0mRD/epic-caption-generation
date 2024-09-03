@@ -158,10 +158,8 @@ def save_scores_to_csv(output_path, row_data):
 
 def evaluate_model_on_dataset(model_path, dataset_path, tokenizer, output_path):
     dataset = load_dataset('csv', data_files={'train': dataset_path})
-    dataset = dataset['train']
-    small_dataset = dataset.train_test_split(test_size=0.9)['train']
 
-    formatted_dataset = small_dataset.map(formatting_prompts_func, batched=True)
+    formatted_dataset = dataset.map(formatting_prompts_func, batched=True)
 
     predictions = []
     ground_truths = []
