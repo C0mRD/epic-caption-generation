@@ -7,7 +7,8 @@ peft
 accelerate
 trl<0.9.0
 xformers
-"unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+git+https://github.com/unslothai/unsloth.git@main#egg=unsloth[colab-new]
 pandas
 scikit-learn
 numpy
+triton
